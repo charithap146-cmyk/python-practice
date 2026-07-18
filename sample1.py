@@ -1,0 +1,11 @@
+a=10
+b=3
+print("The value of a= ",a) 
+print("The value of b= ",b)
+print("The Addition= ",a+b)
+print("The substraction= ",a-b)
+print("The multiplication= ",a*b)
+print("The division= ",a/b)      
+print("The modulus division= ",a%b)
+print("The floor division= ",a//b)
+print("The exponentation= ",a**b)

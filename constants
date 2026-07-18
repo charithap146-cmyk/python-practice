@@ -1,0 +1,27 @@
+#constants
+price_per_ssd=3575#cost of one ssd
+quantity=2#number of ssds
+discount_rate=0.15#15%discount
+cgst_rate=0.09#9%CGST
+sgst_rate=0.09#9%SGST
+#step1:calculate the total cost before discount
+total_cost_before_discount=price_per_ssd*quantity
+#step2:calculate the discount amount
+discount_amount=total_cost_before_discount*discount_rate
+#step3:calculate the net cost after discount
+net_cost_after_discount=total_cost_before_discount-discount_amount
+#step4:calculate the CGST and SGST
+cgst=net_cost_after_discount*cgst_rate
+sgst=net_cost_after_discount*sgst_rate
+#step5:calculate the total amount payable(net cost+cgst+sgst)
+total_amount_payable=net_cost_after_discount+cgst+sgst
+#output the results
+print(f"total cost before discount:rs.{total_cost_before_discount}")
+print(f"discount amount:Rs.{discount_amount}")
+print(f"net cost after discount:Rs.{net_cost_after_discount}")
+print(f"cgst(9%):Rs.{cgst}")
+print(f"sgst(9%):Rs.{sgst}")
+print("total amount payable by the customer:Rs.{total_amount_payable}")
+
+
+

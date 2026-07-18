@@ -1,0 +1,5 @@
+details of collection literals in python:
+list:& C:/Users/chari/AppData/Local/Programs/Python/Python313/python.exe c:/MyPythonPrograms/9a.py
+tuple:& C:/Users/chari/AppData/Local/Programs/Python/Python313/python.exe c:/MyPythonPrograms/9a.py
+set:& C:/Users/chari/AppData/Local/Programs/Python/Python313/python.exe c:/MyPythonPrograms/9a.py
+dictionary:& C:/Users/chari/AppData/Local/Programs/Python/Python313/python.exe c:/MyPythonPrograms/9a.py
